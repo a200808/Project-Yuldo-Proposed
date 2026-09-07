@@ -1,0 +1,3 @@
+# ALLIES PROPOSALS
+
+[PROPOSED] ALLIES 담당 AI의 제안 영역.
