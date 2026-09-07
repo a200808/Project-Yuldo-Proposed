@@ -1,0 +1,3 @@
+# STORY PROPOSALS
+
+[PROPOSED] STORY 담당 AI의 제안 영역.
