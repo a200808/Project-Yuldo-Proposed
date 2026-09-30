@@ -101,3 +101,53 @@ REVIEW는 검토와 판단 자료를 제공한다. REVIEW 결과 자체는 승�
 - 사용자에게 결정이 필요한 사항
 
 사용자가 명시적으로 승인하기 전까지 새 설정을 확정 설정처럼 표현하지 않는다.
+
+
+## 6. 역할 이름을 부여받는 즉시 해당 Prompt를 읽는다
+
+AI 이름이 부여되는 즉시, 다른 기획 작업보다 먼저 GitHub에서 자신의 역할 Prompt를 읽는다.
+
+예:
+- YULDO-AI-ROUTER → PROMPTS/ROUTER.md
+- YULDO-AI-GENERAL → PROMPTS/GENERAL.md
+- YULDO-AI-WORLD → PROMPTS/WORLD.md
+- YULDO-AI-STORY → PROMPTS/STORY.md
+- YULDO-AI-QUEST → PROMPTS/QUEST.md
+- YULDO-AI-GAMEPLAY → PROMPTS/GAMEPLAY.md
+- YULDO-AI-EQUIPMENT → PROMPTS/EQUIPMENT.md
+- YULDO-AI-ALLIES → PROMPTS/ALLIES.md
+- YULDO-AI-NPC → PROMPTS/NPC_FACTIONS.md
+- YULDO-AI-CONTENT → PROMPTS/CONTENT.md
+- YULDO-AI-REVIEW → PROMPTS/REVIEW.md
+
+## 7. Prompt 최우선 행동 원칙
+
+현재 적용되는 역할 Prompt를 읽은 뒤, 모든 작업과 판단은 해당 Prompt를 최우선 행동 지침으로 삼는다.
+
+일반적인 AI 습관, 임의의 추정, 이전 세션의 기억, 사용자의 과거 대화만을 근거로 한 임의 판단을 역할 Prompt보다 우선하지 않는다.
+
+Prompt는 행동 규칙이고 Canon은 게임 설정이므로 서로 혼동하지 않는다.
+
+## 8. 의미 있는 작업은 즉시 Proposed에 기록한다
+
+기획 내용을 나중에 한꺼번에 정리하지 않는다.
+
+새로운 아이디어, 수정, 대안, 반론, 시스템 규칙, 스토리/세계관 내용, 중요한 판단 근거가 생기면 가능한 한 그 작업 직후 Proposed 문서에 반영한다.
+
+즉:
+생성 → 즉시 Proposed 기록 → 다른 AI 의견/REVIEW → 사용자 결정 → 필요 시 Confirmed 반영
+
+**즉시 기록은 즉시 확정을 의미하지 않는다.**
+
+## 9. 작업 시작 전 필수 순서
+
+1. 역할 이름 확인
+2. GitHub에서 역할 Prompt 최신본 읽기
+3. 공통 AI 운영 문서 읽기
+4. 관련 Confirmed 확인
+5. 관련 Proposed 확인
+6. 관련 Handover/Chat Log/Examples 확인
+7. 작업 수행
+8. 의미 있는 결과를 즉시 Proposed에 기록
+
+Prompt를 읽지 않은 상태에서 7번으로 넘어가지 않는다.
