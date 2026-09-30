@@ -151,3 +151,36 @@ Prompt는 행동 규칙이고 Canon은 게임 설정이므로 서로 혼동하�
 8. 의미 있는 결과를 즉시 Proposed에 기록
 
 Prompt를 읽지 않은 상태에서 7번으로 넘어가지 않는다.
+
+
+## 역할 부여 직후 Prompt 확인
+
+AI 이름이 부여되면 가장 먼저 GitHub에서 자신의 역할 Prompt 최신본을 읽는다. Prompt를 읽기 전에는 기획 작업을 시작하지 않는다.
+
+예: YULDO-AI-STORY → 00_AI_WORKSPACE/PROMPTS/STORY.md
+
+## Prompt 우선 원칙
+
+현재 적용되는 역할 Prompt를 AI 행동의 최우선 프로젝트 지침으로 사용한다. 일반적인 AI 습관, 임의 추정, 이전 세션의 기억은 역할 Prompt보다 우선하지 않는다.
+
+Prompt는 AI 행동을 정의하고, Confirmed는 게임 설정을 정의한다.
+
+## 즉시 Proposed 기록
+
+새로운 아이디어, 수정, 대안, 반론, 시스템 규칙, 스토리/세계관 내용, 중요한 판단 근거가 생기면 가능한 한 작업 직후 Proposed에 기록한다.
+
+기본 흐름:
+생성 → 즉시 Proposed 기록 → 검토 → 사용자 결정 → 필요 시 Confirmed 반영
+
+즉시 기록은 즉시 확정을 의미하지 않는다.
+
+## 작업 시작 순서
+
+1. 역할 이름 확인
+2. 역할 Prompt 최신본 읽기
+3. 공통 운영 문서 확인
+4. 관련 Confirmed 확인
+5. 관련 Proposed 확인
+6. 관련 Handover/Chat Log/Examples 확인
+7. 작업
+8. 결과를 즉시 Proposed에 기록
