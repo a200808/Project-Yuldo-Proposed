@@ -5,6 +5,10 @@ Owner: YULDO-AI-GENERAL (coordination), relevant specialist AIs (content), YULDO
 Purpose: 서로 다른 파트와 세션이 동일한 용어·전제·상태를 같은 뜻으로 사용하도록 공통 정의가 필요한 항목을 발굴한다.
 Canon Notice: 질문과 답변 초안은 사용자 승인 전까지 Proposed다. 이 문서는 세계관·시스템 규칙을 임의로 확정하지 않는다.
 
+## 사용자 답변 기록
+- B(세계관 규칙과 경계) 및 C(상태와 변화)의 사용자 답변은 [사용자 답변 및 미반영 결정 기록](../../01_INBOX/COMMON_Q2_B_C_USER_ANSWERS.md)에 보존한다.
+- 이 질문지의 질문 상태를 답변 기록만으로 일괄 [CONFIRMED]로 바꾸지 않는다. 기존 Confirmed와의 충돌, 전문 영역 검토, Canon 통합 승인은 별도 처리한다.
+
 ## 사용 규칙
 - 각 질문에 [OPEN], [PROPOSED], [CONFIRMED], [REVIEW], [N/A] 중 하나를 표시한다. [CONFIRMED]는 사용자 승인된 내용에만 사용한다.
 - 이미 Confirmed에 정의가 있으면 재정의하지 말고 공식 출처를 연결한다.
